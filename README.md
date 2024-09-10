@@ -1,0 +1,4 @@
+This is a basic stock database system only writen in python.The functionality, of this project was to have a basic design and multiple features to within it.
+It has 7 functionalities and 10 name containers(id(which is not shown as it is a primary key),Stock id,record date,location,type,name,item cost,quantity,total item cost,extra info).
+1st functionality is "Add new", this is add all so it can be stored.2nd functionality is "Display", to show the data.3rd functionality is "clear" to clear all of the listed containers which are typed in or selected.4th functionality is "Delete", to delete a selected information from the database.
+5th functionality is "Search", this is to search from any typed in data. 6th functionality is "Update", you have to select the ideal data to update as it is used changed from the primary key.7th functionality is "Exit", just to exit the file.
