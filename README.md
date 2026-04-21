@@ -1,4 +1,37 @@
-This is a basic stock database system only writen in python.The functionality, of this project was to have a basic design and multiple features to within it.
-It has 7 functionalities and 10 name containers(id(which is not shown as it is a primary key),Stock id,record date,location,type,name,item cost,quantity,total item cost,extra info).
-1st functionality is "Add new", this is add all so it can be stored.2nd functionality is "Display", to show the data.3rd functionality is "clear" to clear all of the listed containers which are typed in or selected.4th functionality is "Delete", to delete a selected information from the database.
-5th functionality is "Search", this is to search from any typed in data. 6th functionality is "Update", you have to select the ideal data to update as it is used changed from the primary key.7th functionality is "Exit", just to exit the file.
+Stock Database System
+A Python-based stock database management system with a simple interface for tracking and managing inventory data through multiple built-in functionalities.
+
+What It Does
+Provides a full suite of stock management operations through a clean, menu-driven interface:
+#	Feature	Description
+1	Add	Add a new stock entry with all associated fields
+2	Display	View all stored stock records
+3	Clear	Clear all inputted fields or selections
+4	Delete	Remove a selected record from the database
+5	Search	Search records by any field
+6	Update	Select and update an existing record via primary key
+7	Exit	Safely close the application
+
+Data Structure
+Each stock record contains the following fields:
+Stock ID
+Record Date
+Location
+Type
+Name
+Item Cost
+Quantity
+Total Item Cost
+Extra Info
+Note: An internal primary key (ID) is used for record management but is not displayed to the user.
+
+	
+Language	Python
+Concepts	CRUD operations, Database management
+
+Project Highlights
+Full CRUD functionality built entirely in Python
+10-field data structure designed for real-world inventory tracking
+Search functionality across any field for flexible data retrieval
+Update operations handled safely through primary key selection
+Clean, structured codebase focused on simplicity and usability
